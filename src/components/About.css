@@ -1,81 +1,95 @@
 .about {
-  background-color: var(--color-gray-100);
+  background-color: var(--color-gray-50);
 }
 
 .section-title {
-  margin-bottom: var(--spacing-lg);
+  font-size: 0.875rem;
+  font-weight: 500;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--color-gray-600);
+  margin-bottom: var(--spacing-xl);
   text-align: center;
-  position: relative;
-  display: inline-block;
-  left: 50%;
-  transform: translateX(-50%);
-}
-
-.section-title::after {
-  content: '';
-  position: absolute;
-  bottom: -0.5rem;
-  left: 0;
-  width: 100%;
-  height: 3px;
-  background-color: var(--color-black);
 }
 
 .about-content {
-  max-width: 900px;
+  max-width: 72rem;
   margin: 0 auto;
 }
 
 .about-text {
-  margin-bottom: var(--spacing-lg);
+  margin-bottom: var(--spacing-xl);
+  text-align: center;
+  max-width: 48rem;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .about-text p {
   margin-bottom: var(--spacing-md);
-  color: var(--color-gray-700);
-  line-height: 1.8;
+  color: var(--color-gray-600);
+  font-size: 1.125rem;
+}
+
+.about-text p:last-child {
+  margin-bottom: 0;
 }
 
 .expertise-grid {
   display: grid;
   grid-template-columns: 1fr;
-  gap: var(--spacing-sm);
-  margin-top: var(--spacing-md);
+  gap: 1px;
+  background-color: var(--color-gray-200);
+  border: 1px solid var(--color-gray-200);
 }
 
 .expertise-card {
   background-color: var(--color-white);
-  padding: var(--spacing-sm);
-  border: 2px solid var(--color-black);
-  transition: transform var(--transition-normal);
+  padding: var(--spacing-lg);
+  transition: all var(--transition-normal);
 }
 
 .expertise-card:hover {
-  transform: translateY(-4px);
+  background-color: var(--color-gray-50);
 }
 
 .expertise-title {
   margin-bottom: var(--spacing-sm);
-  font-size: 1.25rem;
+  font-size: 1.125rem;
+  font-weight: 600;
 }
 
 .expertise-description {
-  color: var(--color-gray-700);
-  line-height: 1.6;
+  color: var(--color-gray-600);
+  font-size: 0.9375rem;
 }
 
 @media (min-width: 768px) {
+  .section-title {
+    margin-bottom: var(--spacing-2xl);
+  }
+
+  .about-text {
+    margin-bottom: var(--spacing-2xl);
+  }
+
+  .about-text p {
+    font-size: 1.25rem;
+  }
+
   .expertise-grid {
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: var(--spacing-md);
-    margin-top: var(--spacing-lg);
+    grid-template-columns: repeat(3, 1fr);
   }
 
   .expertise-card {
-    padding: var(--spacing-md);
+    padding: var(--spacing-xl);
   }
 
   .expertise-title {
-    font-size: 1.5rem;
+    font-size: 1.25rem;
+  }
+
+  .expertise-description {
+    font-size: 1rem;
   }
 }
