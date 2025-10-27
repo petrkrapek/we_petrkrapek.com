@@ -76,15 +76,19 @@ button {
 .container {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 0 var(--spacing-md);
+  padding: 0 var(--spacing-sm);
 }
 
 section {
-  padding: var(--spacing-xl) 0;
+  padding: var(--spacing-lg) 0;
 }
 
-@media (max-width: 768px) {
+@media (min-width: 768px) {
+  .container {
+    padding: 0 var(--spacing-md);
+  }
+
   section {
-    padding: var(--spacing-lg) 0;
+    padding: var(--spacing-xl) 0;
   }
 }

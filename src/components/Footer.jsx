@@ -8,7 +8,7 @@ const Footer = () => {
       <div className="container">
         <div className="footer-content">
           <p className="footer-text">
-            &copy; {currentYear} Petr Krapek. Všechna práva vyhrazena.
+            &copy; {currentYear} Petr Krapek. All rights reserved.
           </p>
           <p className="footer-tagline">AI & IT Solutions</p>
         </div>

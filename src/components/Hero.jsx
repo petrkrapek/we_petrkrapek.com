@@ -8,19 +8,19 @@ const Hero = () => {
           <h1 className="hero-title">
             AI & IT
             <br />
-            <span className="hero-title-accent">Inovace pro byznys</span>
+            <span className="hero-title-accent">Solutions</span>
           </h1>
           <p className="hero-description">
-            Specializuji se na analýzu, integraci a automatizaci v oblasti podnikání,
-            vzdělání a zdravonictví. Vyvíjím softwarová řešení, která kombinují umělou
-            inteligenci s praktickými business potřebami.
+            Specialized in analysis, integration, and automation for business,
+            education, and healthcare. Building software solutions that combine
+            artificial intelligence with practical business needs.
           </p>
           <div className="hero-cta">
             <a href="#projects" className="btn btn-primary">
-              Moje projekty
+              View Projects
             </a>
             <a href="#contact" className="btn btn-secondary">
-              Kontaktujte mě
+              Get in Touch
             </a>
           </div>
         </div>

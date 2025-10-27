@@ -30,17 +30,17 @@ const Header = () => {
           <ul className="nav-links">
             <li>
               <button onClick={() => scrollToSection('about')}>
-                O mně
+                About
               </button>
             </li>
             <li>
               <button onClick={() => scrollToSection('projects')}>
-                Projekty
+                Projects
               </button>
             </li>
             <li>
               <button onClick={() => scrollToSection('contact')}>
-                Kontakt
+                Contact
               </button>
             </li>
           </ul>

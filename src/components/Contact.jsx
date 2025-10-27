@@ -22,12 +22,12 @@ const Contact = () => {
   return (
     <section id="contact" className="contact">
       <div className="container">
-        <h2 className="section-title">Kontakt</h2>
+        <h2 className="section-title">Contact</h2>
         <div className="contact-content">
           <div className="contact-text">
             <p>
-              Máte zájem o spolupráci nebo chcete diskutovat o možnostech AI
-              implementace ve vašem projektu? Rád si s vámi popovídám.
+              Interested in collaboration or want to discuss AI implementation
+              possibilities for your project? Let's connect.
             </p>
           </div>
           <div className="contact-info">

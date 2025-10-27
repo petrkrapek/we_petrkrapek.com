@@ -4,30 +4,30 @@ const Projects = () => {
   const projects = [
     {
       title: 'Business Analytics Platform',
-      category: 'Podnikání',
+      category: 'Business',
       description:
-        'Komplexní analytická platforma pro predikci tržních trendů a optimalizaci business procesů pomocí machine learning algoritmů.',
+        'Comprehensive analytics platform for market trend prediction and business process optimization using machine learning algorithms.',
       technologies: ['Python', 'TensorFlow', 'React', 'PostgreSQL'],
     },
     {
       title: 'Healthcare Data Integration',
-      category: 'Zdravonictví',
+      category: 'Healthcare',
       description:
-        'Systém pro integraci a analýzu pacientských dat z různých zdrojů s důrazem na bezpečnost a GDPR compliance.',
+        'System for integrating and analyzing patient data from various sources with emphasis on security and GDPR compliance.',
       technologies: ['Node.js', 'MongoDB', 'HL7 FHIR', 'Docker'],
     },
     {
       title: 'AI Learning Assistant',
-      category: 'Vzdělání',
+      category: 'Education',
       description:
-        'Inteligentní vzdělávací asistent využívající NLP pro personalizované učení a automatické vyhodnocování pokroku studentů.',
+        'Intelligent learning assistant using NLP for personalized learning and automatic student progress evaluation.',
       technologies: ['Python', 'OpenAI API', 'FastAPI', 'Vue.js'],
     },
     {
       title: 'Process Automation Suite',
-      category: 'Podnikání',
+      category: 'Business',
       description:
-        'Automatizační framework pro streamování repetitivních business operací a integrace s existujícími ERP systémy.',
+        'Automation framework for streamlining repetitive business operations and integration with existing ERP systems.',
       technologies: ['TypeScript', 'RPA', 'REST API', 'Azure'],
     },
   ];
@@ -35,7 +35,7 @@ const Projects = () => {
   return (
     <section id="projects" className="projects">
       <div className="container">
-        <h2 className="section-title">Projekty</h2>
+        <h2 className="section-title">Projects</h2>
         <div className="projects-grid">
           {projects.map((project, index) => (
             <div key={index} className="project-card">

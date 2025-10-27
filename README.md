@@ -1,38 +1,38 @@
 # Portfolio - Petr Krapek
 
-Minimalistická portfolio stránka pro prezentaci AI a IT projektů.
+Minimalist portfolio website for AI and IT projects.
 
-## Technologie
+## Technologies
 
 - **React** - UI framework
-- **Vite** - Build tool a dev server
-- **CSS3** - Styling s moderními features
+- **Vite** - Build tool and dev server
+- **CSS3** - Modern styling
 
 ## Design
 
-- Minimalistický design s ostrými hranami
-- Černobílé barevné schéma s odstíny šedé
-- Plně responzivní layout
-- Smooth scroll navigace
+- Minimalist design with sharp edges
+- Black and white color scheme with gray tones
+- Fully responsive mobile-first layout
+- Smooth scroll navigation
 
-## Struktura projektu
+## Project Structure
 
 ```
 src/
 ├── components/
-│   ├── Header.jsx/css    # Navigační header
-│   ├── Hero.jsx/css      # Úvodní sekce
-│   ├── About.jsx/css     # O mně sekce
-│   ├── Projects.jsx/css  # Portfolio projektů
-│   ├── Contact.jsx/css   # Kontaktní informace
+│   ├── Header.jsx/css    # Navigation header
+│   ├── Hero.jsx/css      # Hero section
+│   ├── About.jsx/css     # About section
+│   ├── Projects.jsx/css  # Projects portfolio
+│   ├── Contact.jsx/css   # Contact information
 │   └── Footer.jsx/css    # Footer
-├── App.jsx               # Hlavní komponenta
-├── App.css              # Hlavní styles
-├── index.css            # Globální styles a CSS variables
+├── App.jsx               # Main component
+├── App.css              # Main styles
+├── index.css            # Global styles and CSS variables
 └── main.jsx             # Entry point
 ```
 
-## Instalace a spuštění
+## Installation and Running
 
 ### Development server
 
@@ -50,22 +50,22 @@ npm run preview
 
 ## Features
 
-- ✅ Responzivní design (mobile-first)
-- ✅ Smooth scroll navigace
-- ✅ Hover efekty a animace
-- ✅ SEO-friendly struktura
-- ✅ Optimalizovaný production build
+- ✅ Mobile-first responsive design
+- ✅ Smooth scroll navigation
+- ✅ Hover effects and animations
+- ✅ SEO-friendly structure
+- ✅ Optimized production build
 - ✅ Modern React best practices (hooks, functional components)
 
-## Oblasti zaměření
+## Focus Areas
 
-Portfolio prezentuje projekty z oblastí:
+Portfolio showcases projects in:
 
-- **Podnikání** - Automatizace a optimalizace business procesů
-- **Vzdělání** - Inteligentní vzdělávací platformy
-- **Zdravonictví** - Digitální zdravotní řešení
+- **Business** - Process automation and optimization
+- **Education** - Intelligent learning platforms
+- **Healthcare** - Digital health solutions
 
-## Kontakt
+## Contact
 
 - Email: kontakt@example.com
 - LinkedIn: linkedin.com/in/petr-krapek
@@ -73,4 +73,4 @@ Portfolio prezentuje projekty z oblastí:
 
 ---
 
-© 2025 Petr Krapek. Všechna práva vyhrazena.
+© 2025 Petr Krapek. All rights reserved.

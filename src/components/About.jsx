@@ -3,34 +3,34 @@ import './About.css';
 const About = () => {
   const expertise = [
     {
-      title: 'Podnikání',
-      description: 'Automatizace procesů, analýza dat a optimalizace business operací pomocí AI.',
+      title: 'Business',
+      description: 'Process automation, data analysis, and optimization of business operations using AI.',
     },
     {
-      title: 'Vzdělání',
-      description: 'Inteligentní vzdělávací platformy a personalizované learning management systémy.',
+      title: 'Education',
+      description: 'Intelligent learning platforms and personalized learning management systems.',
     },
     {
-      title: 'Zdravonictví',
-      description: 'Digitální zdravotní řešení, analýza medicínských dat a optimalizace pacientské péče.',
+      title: 'Healthcare',
+      description: 'Digital health solutions, medical data analysis, and patient care optimization.',
     },
   ];
 
   return (
     <section id="about" className="about">
       <div className="container">
-        <h2 className="section-title">O mně</h2>
+        <h2 className="section-title">About</h2>
         <div className="about-content">
           <div className="about-text">
             <p>
-              Jsem softwarový vývojář specializující se na implementaci AI řešení
-              do reálných business procesů. Kombinuji technickou expertízu s hlubokým
-              pochopením potřeb klientů v různých odvětvích.
+              Software developer specializing in implementing AI solutions
+              into real-world business processes. Combining technical expertise with deep
+              understanding of client needs across various industries.
             </p>
             <p>
-              Moje přístup je založen na důkladné analýze, následné integraci
-              moderních technologií a komplexní automatizaci, která přináší
-              měřitelné výsledky.
+              My approach is based on thorough analysis, integration
+              of modern technologies, and comprehensive automation that delivers
+              measurable results.
             </p>
           </div>
           <div className="expertise-grid">
