@@ -17,13 +17,6 @@ const Projects = () => {
       technologies: ['Node.js', 'MongoDB', 'HL7 FHIR', 'Docker'],
     },
     {
-      title: 'AI Learning Assistant',
-      category: 'Education',
-      description:
-        'Intelligent learning assistant using NLP for personalized learning and automatic student progress evaluation.',
-      technologies: ['Python', 'OpenAI API', 'FastAPI', 'Vue.js'],
-    },
-    {
       title: 'Process Automation Suite',
       category: 'Business',
       description:

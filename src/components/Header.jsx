@@ -25,7 +25,7 @@ const Header = () => {
       <div className="container">
         <nav className="nav">
           <div className="logo">
-            <span className="logo-text">PK</span>
+            <span className="logo-text">PK.COM</span>
           </div>
           <ul className="nav-links">
             <li>
