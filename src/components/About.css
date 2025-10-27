@@ -1,0 +1,71 @@
+.about {
+  background-color: var(--color-gray-100);
+}
+
+.section-title {
+  margin-bottom: var(--spacing-lg);
+  text-align: center;
+  position: relative;
+  display: inline-block;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.section-title::after {
+  content: '';
+  position: absolute;
+  bottom: -0.5rem;
+  left: 0;
+  width: 100%;
+  height: 3px;
+  background-color: var(--color-black);
+}
+
+.about-content {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.about-text {
+  margin-bottom: var(--spacing-lg);
+}
+
+.about-text p {
+  margin-bottom: var(--spacing-md);
+  color: var(--color-gray-700);
+  line-height: 1.8;
+}
+
+.expertise-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: var(--spacing-md);
+  margin-top: var(--spacing-lg);
+}
+
+.expertise-card {
+  background-color: var(--color-white);
+  padding: var(--spacing-md);
+  border: 2px solid var(--color-black);
+  transition: transform var(--transition-normal);
+}
+
+.expertise-card:hover {
+  transform: translateY(-4px);
+}
+
+.expertise-title {
+  margin-bottom: var(--spacing-sm);
+  font-size: 1.5rem;
+}
+
+.expertise-description {
+  color: var(--color-gray-700);
+  line-height: 1.6;
+}
+
+@media (max-width: 768px) {
+  .expertise-grid {
+    grid-template-columns: 1fr;
+  }
+}
